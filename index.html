@@ -16,7 +16,7 @@
     <header>
       <div class="container">
         <h1>Coddi</h1>
-        <h2>Complete Drupal Development Infrastracture - is a template for your Drupal-based project, that covers most development operations, servers configurations and continous deployments.</h2>
+        <h2>Complete Drupal Development Infrastructure - is a template for your Drupal-based project.</h2>
 
         <section id="downloads">
           <a href="https://github.com/coddi-org/landing-page/zipball/master" class="btn">Download as .zip</a>
@@ -29,36 +29,73 @@
     <div class="container">
       <section id="main_content">
         <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+<a name="welcome-to-coddi" class="anchor" href="#welcome-to-coddi"><span class="octicon octicon-link"></span></a>Welcome to CODDI.</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<p>This is template for your Drupal-based project, that covers most development operations, servers configurations and continous deployments. That is why we call it Complete Drupal Development Infrastructure or Continous Drupal Delivery Infrastructure.</p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+<p>CODDI use drush, phing, vagrant, chef and jenkins to automate whole development cycle for Drupal projects. 
+It makes developers, testers and sysadmins to speak on the "same language" to reach the goal of the project.</p>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<h1>
+<a name="comming-soon" class="anchor" href="#comming-soon"><span class="octicon octicon-link"></span></a>Comming soon...</h1>
+
+<p>We are preparing CODDI to contribute...</p>
+
+<h2>
+<a name="you-can-try-it-on-drupalomsk-6-httpvkcomclub64882805-mini-workshop" class="anchor" href="#you-can-try-it-on-drupalomsk-6-httpvkcomclub64882805-mini-workshop"><span class="octicon octicon-link"></span></a>You can try it on Drupal@Omsk #6 <a href="http://vk.com/club64882805">http://vk.com/club64882805</a> mini-workshop.</h2>
 
 <h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<a name="im-a-developer-how-would-it-help-me" class="anchor" href="#im-a-developer-how-would-it-help-me"><span class="octicon octicon-link"></span></a>I'm a developer. How would it help me?</h3>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<p>CODDI will standardize and automate most of common Drupal operations.
+It provide:</p>
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+<ul>
+<li>developer local VM equal to production server</li>
+<li>easy way to work with community and third party code</li>
+<li>easy to apply patches</li>
+<li>way to enable automate modules</li>
+<li>way to sync state of DB with code in one command</li>
+<li>way to up complex Drupal site from scratch</li>
+<li>way run the same changes during deploy in auto mode</li>
+<li>You deploys will became stress less.</li>
+</ul><h3>
+<a name="im-system-admin-how-would-it-help-me" class="anchor" href="#im-system-admin-how-would-it-help-me"><span class="octicon octicon-link"></span></a>I'm system admin. How would it help me?</h3>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<ul>
+<li>You will have scratch for Drupal servers infrastructure</li>
+<li>You will have configuration of jenkins server with scratch pipe line that makes automated deployments.</li>
+<li>You will write chef code once, and every developers in team will get changes.</li>
+</ul><h3>
+<a name="im-qa-how-would-it-help-me" class="anchor" href="#im-qa-how-would-it-help-me"><span class="octicon octicon-link"></span></a>I'm QA. How would it help me?</h3>
+
+<ul>
+<li>You will have developer local VM equal to production server</li>
+<li>You will have one command to update your local Drupal project to latest version created by developers.</li>
+<li>You will have way to test changes on local VM and block it's merge to common branch. Such workflow will make common branch stable and quality of project will up.</li>
+<li>In nearly future we going to make TDD for Drupal real with CODDI.</li>
+</ul><h3>
+<a name="im-manager-how-would-it-help-me" class="anchor" href="#im-manager-how-would-it-help-me"><span class="octicon octicon-link"></span></a>I'm manager. How would it help me?</h3>
+
+<ul>
+<li>Read all over, to find that CODDI will reduce chaos in your project.</li>
+<li>CODDI will speed up your team by making routing work with CODDI</li>
+</ul><h2>
+<a name="technical-information" class="anchor" href="#technical-information"><span class="octicon octicon-link"></span></a>Technical information</h2>
+
+<p>Support: VirtualBox and AWS cloud
+Required: Vagrant and NFS</p>
 
 <h3>
 <a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<p>Igor Rodionov - <a href="https://github.com/goruha" class="user-mention">@goruha</a>
+Max Mironenko - <a href="https://github.com/maximmi" class="user-mention">@maximmi</a></p>
 
 <h3>
 <a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+<p><a href="mailto:coddi@gmail.com">coddi@gmail.com</a></p>
       </section>
     </div>
 
